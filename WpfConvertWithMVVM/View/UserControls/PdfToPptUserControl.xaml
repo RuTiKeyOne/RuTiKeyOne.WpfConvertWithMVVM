@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="WpfConvertWithMVVM.View.UserControls.PdfToPptUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfConvertWithMVVM.View.UserControls"
+             xmlns:viewmodel="clr-namespace:WpfConvertWithMVVM.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="375" d:DesignWidth="375" Background="#EFEFEF">
+    <UserControl.DataContext>
+        <viewmodel:MainViewModel/>
+    </UserControl.DataContext>
+    <DockPanel Height="320" Width="280" Background="#7438BC">
+        <Grid VerticalAlignment="Center" Width="240">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="PDF File:" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
+            <UniformGrid Grid.Row="1" Columns="2">
+                <TextBox Text="{Binding _FileName}" IsReadOnly="true" TextWrapping="Wrap" FontSize="12" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
+                <Button CommandParameter="Pdf file|*.pdf" Command="{Binding OpenFileDialog}" Content="Choose"></Button>
+            </UniformGrid>
+            <TextBlock Grid.Row="2" Text="Where to Save:" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
+            <UniformGrid Grid.Row="3" Columns="2">
+                <TextBox IsReadOnly="true" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="DemiBold" FontSize="16"></TextBox>
+                <Button Content="Choose"></Button>
+            </UniformGrid>
+            <Button Grid.Row="4" Width="150" Content="Convert"></Button>
+        </Grid>
+    </DockPanel>
+</UserControl>

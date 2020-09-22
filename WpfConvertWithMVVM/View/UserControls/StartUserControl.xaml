@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="WpfConvertWithMVVM.View.UserControls.StartUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfConvertWithMVVM.View.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="375" d:DesignWidth="375" Background="#EFEFEF">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Foreground="#8D47DE" FontSize="22" FontWeight="ExtraLight" Text="Welcome to the program Converter"></TextBlock>
+    </StackPanel>
+</UserControl>
