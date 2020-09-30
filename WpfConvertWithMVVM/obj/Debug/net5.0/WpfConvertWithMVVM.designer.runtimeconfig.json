@@ -1,0 +1,16 @@
+{
+  "runtimeOptions": {
+    "tfm": "net5.0",
+    "framework": {
+      "name": "Microsoft.WindowsDesktop.App",
+      "version": "5.0.0-rc.1.20452.2"
+    },
+    "additionalProbingPaths": [
+      "C:\\Users\\RuTiKeyOne\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\RuTiKeyOne\\.nuget\\packages"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

@@ -31,27 +31,50 @@ namespace WpfConvertWithMVVM.ViewModel
         public MainViewModel()
         {
             OpenFileDialog = new ActionCommand(OnOpenFileDialogExecute, CanOpenFileDialogExecute);
+            OpenFolderDialog = new ActionCommand(OnOpenFolderDialog, CanOpenFolderDialog);
             UpdateViewCommand = new UpdateViewCommand(this);
             this.CloseMain = new RelayCommand<Window>(this.CloseWindow);
         }
         #endregion
 
-        public string _FileName{
-            get => FileName;
+        public string FileName {
+            get => fileName;
             set
             {
-                SetProperty(ref FileName, value);
+                SetProperty(ref fileName, value);
 
             }
         }
-        private string FileName;
+        private string fileName;
+
+        #region OpenFileDialogCommand
         public ICommand OpenFileDialog { get; set; }
         public bool CanOpenFileDialogExecute(object parameter) => true;
         public void OnOpenFileDialogExecute(object parameter)
         {
             OpenDialogAndGetFile OpenObj = new OpenDialogAndGetFile();
-            _FileName = OpenObj.GetFile((string)parameter);
+            FileName = OpenObj.GetFile((string)parameter);
         }
+        #endregion
+
+        public string FolderName {
+            get => folderName;
+            set
+            {
+                SetProperty(ref folderName, value);
+            }
+        }
+        private string folderName;
+
+        public ICommand OpenFolderDialog { get; set; }
+
+        private bool CanOpenFolderDialog(object parameter) => true;
+        public void OnOpenFolderDialog(object parameter)
+        {
+            OpenFolderDialog SetFolderObj = new OpenFolderDialog();
+            FolderName = SetFolderObj.SetFolder();
+        }
+
 
         public RelayCommand<Window> CloseMain { get; private set; }
         public void CloseWindow(Window window)

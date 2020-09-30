@@ -21,13 +21,13 @@
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="Image File" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
             <UniformGrid Grid.Row="1" Columns="2">
-                <TextBox Text="{Binding _FileName}" IsReadOnly="true" TextWrapping="Wrap" FontSize="12" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
+                <TextBox Text="{Binding FileName}" IsReadOnly="true" TextWrapping="Wrap" FontSize="12" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
                 <Button Command="{Binding OpenFileDialog}" CommandParameter="Image file|*.jpg;*.png;*.tiff" Content="Choose"></Button>
             </UniformGrid>
             <TextBlock Grid.Row="2" Text="Where to Save:" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
             <UniformGrid Grid.Row="3" Columns="2">
-                <TextBox IsReadOnly="True" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="DemiBold" FontSize="16"></TextBox>
-                <Button Content="Choose"></Button>
+                <TextBox Text="{Binding FolderName}" IsReadOnly="True" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="ExtraLight" FontSize="12"></TextBox>
+                <Button Command="{Binding OpenFolderDialog}" Content="Choose"></Button>
             </UniformGrid>
             <Button Grid.Row="4" Width="150" Content="Convert"></Button>
         </Grid>

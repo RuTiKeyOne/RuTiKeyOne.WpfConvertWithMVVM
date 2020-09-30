@@ -41,3 +41,5 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Extras.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.Platform.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.Shell.dll

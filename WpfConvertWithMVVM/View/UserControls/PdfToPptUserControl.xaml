@@ -21,13 +21,13 @@
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="0" Text="PDF File:" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
             <UniformGrid Grid.Row="1" Columns="2">
-                <TextBox Text="{Binding _FileName}" IsReadOnly="true" TextWrapping="Wrap" FontSize="12" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
+                <TextBox Text="{Binding FileName}" IsReadOnly="true" TextWrapping="Wrap" FontSize="12" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
                 <Button CommandParameter="Pdf file|*.pdf" Command="{Binding OpenFileDialog}" Content="Choose"></Button>
             </UniformGrid>
             <TextBlock Grid.Row="2" Text="Where to Save:" FontSize="24" FontWeight="ExtraLight" Foreground="#FFF"></TextBlock>
             <UniformGrid Grid.Row="3" Columns="2">
-                <TextBox IsReadOnly="true" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="DemiBold" FontSize="16"></TextBox>
-                <Button Content="Choose"></Button>
+                <TextBox FontSize="12" Text="{Binding FolderName}" IsReadOnly="true" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="ExtraLight"></TextBox>
+                <Button Content="Choose" Command="{Binding OpenFolderDialog}"></Button>
             </UniformGrid>
             <Button Grid.Row="4" Width="150" Content="Convert"></Button>
         </Grid>

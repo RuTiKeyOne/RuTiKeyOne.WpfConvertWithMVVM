@@ -7,8 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\RuTiKeyOne\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\RuTiKeyOne\\.nuget\\packages",
-      "C:\\Microsoft\\Xamarin\\NuGet"
+      "C:\\Users\\RuTiKeyOne\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
