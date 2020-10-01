@@ -19,7 +19,7 @@
     <Compile Update="View\UserControls\OfficeToPdfUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\UserControls\PdfToPptUserControl.xaml.cs">
+    <Compile Update="View\UserControls\PdfToTextUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\StartUserControl.xaml.cs">
@@ -42,7 +42,7 @@
     <Page Update="View\UserControls\OfficeToPdfUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\UserControls\PdfToPptUserControl.xaml">
+    <Page Update="View\UserControls\PdfToTextUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UserControls\StartUserControl.xaml">

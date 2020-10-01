@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace WpfConvertWithMVVM.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for PdfToPptUserControl.xaml
+    /// Interaction logic for PdfToTextUserControl.xaml
     /// </summary>
-    public partial class PdfToPptUserControl : UserControl
+    public partial class PdfToTextUserControl : UserControl
     {
-        public PdfToPptUserControl()
+        public PdfToTextUserControl()
         {
             InitializeComponent();
         }

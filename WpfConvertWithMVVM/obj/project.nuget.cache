@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "XN6WSN0O0UyaCRYLvtSMOxh3d54WLIBzCajVsWBGDD9Vg2+IlAss5sgk2/+IeSTmRj9VDykRBCSrmTwRMT/KWg==",
+  "dgSpecHash": "WX+m9tbLWNxbTyWzFDaovIl33OSRDw5TcV0B41FkWFahMRK/++bYVRPR8TC4htnO4poBJNrCrg15cksD3lxc7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\RuTiKeyOne\\source\\repos\\WpfConvertWithMVVM\\WpfConvertWithMVVM\\WpfConvertWithMVVM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\commonservicelocator\\2.0.4\\commonservicelocator.2.0.4.nupkg.sha512",
+    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\convertapi\\3.0.5\\convertapi.3.0.5.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",

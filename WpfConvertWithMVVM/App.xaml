@@ -10,8 +10,8 @@
             <DataTemplate DataType="{x:Type viewmodel:StartViewModel}">
                 <view:StartUserControl/>
             </DataTemplate>
-            <DataTemplate DataType="{x:Type viewmodel:PdfToPptViewModel}">
-                <view:PdfToPptUserControl/>
+            <DataTemplate DataType="{x:Type viewmodel:PdfToTextViewModel}">
+                <view:PdfToTextUserControl/>
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodel:OfficeToPdfViewModel}">
                 <view:OfficeToPdfUserControl/>

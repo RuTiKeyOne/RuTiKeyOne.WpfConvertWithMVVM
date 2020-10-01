@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "ConvertApi": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[3.1.3, )"

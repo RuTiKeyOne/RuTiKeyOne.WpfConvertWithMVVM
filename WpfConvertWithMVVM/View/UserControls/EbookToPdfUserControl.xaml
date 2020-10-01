@@ -29,7 +29,7 @@
                 <TextBox Text="{Binding FolderName}" IsReadOnly="True" TextWrapping="Wrap" Margin="10" Foreground="#FFF" FontWeight="ExtraLight" FontSize="12"></TextBox>
                 <Button Command="{Binding OpenFolderDialog}" Content="Choose"></Button>
             </UniformGrid>
-            <Button Grid.Row="4" Width="150" Content="Convert"></Button>
+            <Button Command="{Binding ConvertCommand}" CommandParameter=".pdf"  Grid.Row="4" Width="150" Content="Convert"></Button>
         </Grid>
     </DockPanel>
 </UserControl>

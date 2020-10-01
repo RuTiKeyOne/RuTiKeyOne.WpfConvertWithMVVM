@@ -25,13 +25,11 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\EbookToPdfUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\ImagesToPdfUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\OfficeToPdfUserControl.g.cs
-C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\PdfToPptUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\StartUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\EbookToPdfUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\ImagesToPdfUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\OfficeToPdfUserControl.baml
-C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\PdfToPptUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\StartUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\CommonServiceLocator.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Prism.dll
@@ -43,3 +41,7 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\ConvertApi.dll
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\PdfToTextUserControl.g.cs
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\netcoreapp3.1\View\UserControls\PdfToTextUserControl.baml

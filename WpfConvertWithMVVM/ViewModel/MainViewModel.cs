@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
+using WpfConvertWithMVVM.Model.Api_Work;
 using WpfConvertWithMVVM.Model.Commands;
 using WpfConvertWithMVVM.Model.Dialogs;
 using WpfConvertWithMVVM.ViewModel.Base;
@@ -32,6 +33,7 @@ namespace WpfConvertWithMVVM.ViewModel
         {
             OpenFileDialog = new ActionCommand(OnOpenFileDialogExecute, CanOpenFileDialogExecute);
             OpenFolderDialog = new ActionCommand(OnOpenFolderDialog, CanOpenFolderDialog);
+            ConvertCommand = new ActionCommand(OnConvertCommand, CanConvertCommand);
             UpdateViewCommand = new UpdateViewCommand(this);
             this.CloseMain = new RelayCommand<Window>(this.CloseWindow);
         }
@@ -83,6 +85,15 @@ namespace WpfConvertWithMVVM.ViewModel
             {
                 window.Close();
             }
+        }
+
+        public ICommand ConvertCommand { get; set; }
+
+        private bool CanConvertCommand(object sender) => true;
+        public void OnConvertCommand(object sender)
+        {
+            ApiWork WorkObj = new ApiWork();
+            WorkObj.ConvertFile(FileName, FolderName, (string)sender);
         }
     }
 }

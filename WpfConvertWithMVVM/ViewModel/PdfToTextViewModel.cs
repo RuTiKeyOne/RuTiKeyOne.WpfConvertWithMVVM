@@ -5,7 +5,7 @@ using WpfConvertWithMVVM.ViewModel.Base;
 
 namespace WpfConvertWithMVVM.ViewModel
 {
-    class PdfToPptViewModel : BaseViewModel
+    class PdfToTextViewModel : BaseViewModel
     {
     }
 }

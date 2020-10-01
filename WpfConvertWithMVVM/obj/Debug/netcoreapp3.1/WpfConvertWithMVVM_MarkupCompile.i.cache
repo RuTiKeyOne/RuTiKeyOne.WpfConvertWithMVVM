@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\App.xaml
-7-2060549381
+7811551336
 
-23-291978048
-2031306963268
-MainWindow.xaml;View\ErrorWindow.xaml;View\UserControls\EbookToPdfUserControl.xaml;View\UserControls\ImagesToPdfUserControl.xaml;View\UserControls\OfficeToPdfUserControl.xaml;View\UserControls\PdfToPptUserControl.xaml;View\UserControls\StartUserControl.xaml;
+24-18810120
+205454352622
+MainWindow.xaml;View\ErrorWindow.xaml;View\UserControls\EbookToPdfUserControl.xaml;View\UserControls\ImagesToPdfUserControl.xaml;View\UserControls\OfficeToPdfUserControl.xaml;View\UserControls\PdfToTextUserControl.xaml;View\UserControls\StartUserControl.xaml;
 
 True
 

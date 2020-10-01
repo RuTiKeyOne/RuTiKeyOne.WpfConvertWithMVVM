@@ -33,8 +33,8 @@ namespace WpfConvertWithMVVM.Model.Commands
                 case "EbookToPdf":
                     ViewModel.SelectedViewModel = new EbookToPdfViewModel();
                     break;
-                case "PdfToPpt":
-                    ViewModel.SelectedViewModel = new PdfToPptViewModel();
+                case "PdfToText":
+                    ViewModel.SelectedViewModel = new PdfToTextViewModel();
                     break;
 
 
