@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "WpfConvertWithMVVM/1.0.0": {
         "dependencies": {
+          "ConvertApi": "3.0.5",
           "MaterialDesignThemes": "3.1.3",
           "MvvmLightLibs": "5.4.1.1",
           "Prism.Wpf": "7.2.0.1422",
@@ -22,6 +23,17 @@
           "lib/netcoreapp2.0/CommonServiceLocator.dll": {
             "assemblyVersion": "2.0.4.0",
             "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "ConvertApi/3.0.5": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ConvertApi.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
           }
         }
       },
@@ -61,6 +73,14 @@
           "lib/net45/System.Windows.Interactivity.dll": {
             "assemblyVersion": "4.5.0.0",
             "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
           }
         }
       },
@@ -118,6 +138,13 @@
       "path": "commonservicelocator/2.0.4",
       "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
     },
+    "ConvertApi/3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tmhtuOH/lG+qSpFobTVEA0p4+GU/Hylnzn5ddRDhdyWGY3Er7yWrJ2l0FSdCkxKHVyFHtlT1VfIKKxjzYddFjQ==",
+      "path": "convertapi/3.0.5",
+      "hashPath": "convertapi.3.0.5.nupkg.sha512"
+    },
     "MaterialDesignColors/1.2.6": {
       "type": "package",
       "serviceable": true,
@@ -138,6 +165,13 @@
       "sha512": "sha512-xYpVzOYnIz/M6T0pdc3w5t0vrt2ZKspSS+CZjQ+pZE+5yHv9qXSWkncHJXb6D7Egstalso4ivnIUkA1xEClViw==",
       "path": "mvvmlightlibs/5.4.1.1",
       "hashPath": "mvvmlightlibs.5.4.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
     "Prism.Core/7.2.0.1422": {
       "type": "package",

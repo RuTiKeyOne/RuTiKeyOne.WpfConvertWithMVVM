@@ -89,7 +89,7 @@ namespace WpfConvertWithMVVM.ViewModel
 
         public ICommand ConvertCommand { get; set; }
 
-        private bool CanConvertCommand(object sender) => true;
+        private bool CanConvertCommand(object sender) => FileName != null && FolderName != null;
         public void OnConvertCommand(object sender)
         {
             ApiWork WorkObj = new ApiWork();

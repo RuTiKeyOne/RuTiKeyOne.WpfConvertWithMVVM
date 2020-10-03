@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WX+m9tbLWNxbTyWzFDaovIl33OSRDw5TcV0B41FkWFahMRK/++bYVRPR8TC4htnO4poBJNrCrg15cksD3lxc7Q==",
+  "dgSpecHash": "hpGAUw5Cq5uqPMZLVz7mi8v69chrPNQIk/JHwfSey9u9sctSzBraGMINCd2a20oUrwluNNGNUl1vP0JliVBqFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\RuTiKeyOne\\source\\repos\\WpfConvertWithMVVM\\WpfConvertWithMVVM\\WpfConvertWithMVVM.csproj",
   "expectedPackageFiles": [
@@ -13,38 +13,37 @@
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
-    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512",
-    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"MvvmLightLibs 5.4.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"MvvmLightLibs 5.4.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"WindowsAPICodePack-Core 1.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"WindowsAPICodePack-Core 1.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "WindowsAPICodePack-Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"WindowsAPICodePack-Shell 1.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"WindowsAPICodePack-Shell 1.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "WindowsAPICodePack-Shell",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0-windows7.0"
       ]
     }
   ]
