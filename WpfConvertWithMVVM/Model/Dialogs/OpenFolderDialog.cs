@@ -19,7 +19,7 @@ namespace WpfConvertWithMVVM.Model.Dialogs
                 case CommonFileDialogResult.Ok:
                     return CommonDialog.FileName;
             }
-            throw new Exception();
+            return "No folder selected";
         }
     }
 }

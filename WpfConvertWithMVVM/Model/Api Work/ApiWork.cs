@@ -16,7 +16,8 @@ namespace WpfConvertWithMVVM.Model.Api_Work
                 try{
                     var ConvertApi = new ConvertApi("zU0PbViExUse1d6W");
                     ConvertApi.ConvertFile($@"{fileName}", $@"{whereToSave}\ConvertedFile{expansion}");
-                }catch(Exception ex)
+                }
+                catch(Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }

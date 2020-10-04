@@ -36,8 +36,6 @@ namespace WpfConvertWithMVVM.Model.Commands
                 case "PdfToText":
                     ViewModel.SelectedViewModel = new PdfToTextViewModel();
                     break;
-
-
             }
         }
     }

@@ -16,7 +16,6 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\net5.0\Prism.Wpf.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\WpfConvertWithMVVM.csprojAssemblyReference.cache
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\MainWindow.g.cs
-C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\ErrorWindow.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\EbookToPdfUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\ImagesToPdfUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\OfficeToPdfUserControl.g.cs
@@ -27,7 +26,6 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\WpfConvertWithMVVM_MarkupCompile.lref
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\App.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\MainWindow.baml
-C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\ErrorWindow.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\EbookToPdfUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\ImagesToPdfUserControl.baml
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\OfficeToPdfUserControl.baml
@@ -48,3 +46,5 @@ C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\PdfToTextUserControl.g.cs
 C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\PdfToTextUserControl.baml
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\MessageUserControl.g.cs
+C:\Users\RuTiKeyOne\source\repos\WpfConvertWithMVVM\WpfConvertWithMVVM\obj\Debug\net5.0\View\UserControls\MessageUserControl.baml

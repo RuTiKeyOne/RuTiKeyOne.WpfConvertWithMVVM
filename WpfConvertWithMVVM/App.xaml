@@ -22,6 +22,9 @@
             <DataTemplate DataType="{x:Type viewmodel:EbookToPdfViewModel}">
                 <view:EbookToPdfUserControl/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewmodel:MessageViewModel}">
+                <view:MessageUserControl/>
+            </DataTemplate>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />

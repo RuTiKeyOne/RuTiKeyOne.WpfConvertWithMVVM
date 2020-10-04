@@ -18,7 +18,7 @@ namespace WpfConvertWithMVVM.Model.Dialogs
                     return Dialog.FileName;
                     break;
             };
-            throw new Exception();
+            return "No file selected";
         }
     }
 }
