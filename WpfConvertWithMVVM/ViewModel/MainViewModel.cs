@@ -1,18 +1,17 @@
 ﻿using GalaSoft.MvvmLight.Command;
-using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
-using WpfConvertWithMVVM.Model.Api_Work;
+using WpfConvertWithMVVM.Model.API;
 using WpfConvertWithMVVM.Model.Commands;
+using WpfConvertWithMVVM.Model.Commands.Base;
 using WpfConvertWithMVVM.Model.Dialogs;
 using WpfConvertWithMVVM.ViewModel.Base;
+using WpfConvertWithMVVM.ViewModel;
+using WpfConvertWithMVVM.Model.Internet;
 
 namespace WpfConvertWithMVVM.ViewModel
 {
-    class MainViewModel : BaseViewModel
+    class MainViewModel : BaseViewModel, ICloseWindow
     {
         #region Update View
         private BaseViewModel _SelectedViewModel = new StartViewModel();
@@ -94,6 +93,9 @@ namespace WpfConvertWithMVVM.ViewModel
         {
             ApiWork WorkObj = new ApiWork();
             WorkObj.ConvertFile(FileName, FolderName, (string)sender);
+
+            Message MessageObj = new Message();
+            MessageObj.ShowMessage("Conversion started");
         }
     }
 }

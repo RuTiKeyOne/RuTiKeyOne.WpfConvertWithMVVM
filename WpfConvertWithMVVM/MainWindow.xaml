@@ -19,7 +19,7 @@
                 <Setter.Value>
                     <ControlTemplate>
                         <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="25" Width="35" Background="#BD0F10">
-                            <TextBlock Foreground="White" FontSize="12" Text="x"></TextBlock>
+                            <TextBlock Foreground="White" FontSize="8" Text="&#10006;"></TextBlock>
                         </Label>
                     </ControlTemplate>
                 </Setter.Value>

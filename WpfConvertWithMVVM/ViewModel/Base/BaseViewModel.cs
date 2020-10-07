@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WpfConvertWithMVVM.ViewModel.Base
 {
-    class BaseViewModel : INotifyPropertyChanged
+    public class BaseViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using ConvertApiDotNet;
+using WpfConvertWithMVVM.Model.Dialogs;
 
-namespace WpfConvertWithMVVM.Model.Api_Work
+namespace WpfConvertWithMVVM.Model.API
 {
     class ApiWork
     {
@@ -19,7 +21,7 @@ namespace WpfConvertWithMVVM.Model.Api_Work
                 }
                 catch(Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                   //I have problem from STA and create new window
                 }
             });
 

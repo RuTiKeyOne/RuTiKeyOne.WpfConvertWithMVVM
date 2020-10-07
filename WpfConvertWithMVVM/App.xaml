@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:WpfConvertWithMVVM"
              xmlns:view="clr-namespace:WpfConvertWithMVVM.View.UserControls"
              xmlns:viewmodel="clr-namespace:WpfConvertWithMVVM.ViewModel"
-             StartupUri="MainWindow.xaml">
+             >
     <Application.Resources>
         <ResourceDictionary>
             <DataTemplate DataType="{x:Type viewmodel:StartViewModel}">
@@ -21,9 +21,6 @@
             </DataTemplate>
             <DataTemplate DataType="{x:Type viewmodel:EbookToPdfViewModel}">
                 <view:EbookToPdfUserControl/>
-            </DataTemplate>
-            <DataTemplate DataType="{x:Type viewmodel:MessageViewModel}">
-                <view:MessageUserControl/>
             </DataTemplate>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />

@@ -7,10 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="View\UserControls\EbookToPdfUserControl.xaml.cs">
+    <Compile Update="View\MessageWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\UserControls\MessageUserControl.xaml.cs">
+    <Compile Update="View\UserControls\EbookToPdfUserControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UserControls\ImagesToPdfUserControl.xaml.cs">
@@ -30,10 +30,10 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\UserControls\EbookToPdfUserControl.xaml">
+    <Page Update="View\MessageWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\UserControls\MessageUserControl.xaml">
+    <Page Update="View\UserControls\EbookToPdfUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UserControls\ImagesToPdfUserControl.xaml">

@@ -10,19 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfConvertWithMVVM.View.UserControls
+namespace WpfConvertWithMVVM.View
 {
     /// <summary>
-    /// Логика взаимодействия для ErrorUserControl.xaml
+    /// Логика взаимодействия для MessageWindow.xaml
     /// </summary>
-    public partial class MessageUserControl : UserControl
+    public partial class MessageWindow : Window
     {
-        public MessageUserControl()
+        public MessageWindow()
         {
             InitializeComponent();
         }
+
     }
 }
