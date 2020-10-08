@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7zL0r6DSgkuG+s9PpiK/1N5nFi7ITizmrZs6ObmvITzwFeJ4z9SXctceF8DOJTru/rnyiSnIqj8GAAjQqvNxzA==",
+  "dgSpecHash": "xxG+Ed8pD98WMEMZZ/2GjbLtIm2qcz4RGz5IFUD8dqxV03PeuqALwsDINaRfmo1zGjoUZXgXaZNoMXQ8H3eaqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\RuTiKeyOne\\source\\repos\\WpfConvertWithMVVM\\WpfConvertWithMVVM\\WpfConvertWithMVVM.csproj",
   "expectedPackageFiles": [
@@ -16,8 +16,7 @@
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\prism.wpf\\7.2.0.1422\\prism.wpf.7.2.0.1422.nupkg.sha512",
     "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
-    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512",
-    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\RuTiKeyOne\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
   ],
   "logs": [
     {

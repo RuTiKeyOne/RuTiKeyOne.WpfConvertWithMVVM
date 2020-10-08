@@ -6,8 +6,6 @@ using WpfConvertWithMVVM.Model.Commands;
 using WpfConvertWithMVVM.Model.Commands.Base;
 using WpfConvertWithMVVM.Model.Dialogs;
 using WpfConvertWithMVVM.ViewModel.Base;
-using WpfConvertWithMVVM.ViewModel;
-using WpfConvertWithMVVM.Model.Internet;
 
 namespace WpfConvertWithMVVM.ViewModel
 {
@@ -38,6 +36,9 @@ namespace WpfConvertWithMVVM.ViewModel
         }
         #endregion
 
+        //Set and get file name
+
+        #region File
         public string FileName {
             get => fileName;
             set
@@ -48,7 +49,6 @@ namespace WpfConvertWithMVVM.ViewModel
         }
         private string fileName;
 
-        #region OpenFileDialogCommand
         public ICommand OpenFileDialog { get; set; }
         public bool CanOpenFileDialogExecute(object parameter) => true;
         public void OnOpenFileDialogExecute(object parameter)
@@ -58,6 +58,9 @@ namespace WpfConvertWithMVVM.ViewModel
         }
         #endregion
 
+        //Set and get folder name
+
+        #region Folder
         public string FolderName {
             get => folderName;
             set
@@ -76,7 +79,9 @@ namespace WpfConvertWithMVVM.ViewModel
             FolderName = SetFolderObj.SetFolder();
         }
 
+        #endregion
 
+        #region Close command
         public RelayCommand<Window> CloseMain { get; private set; }
         public void CloseWindow(Window window)
         {
@@ -85,7 +90,9 @@ namespace WpfConvertWithMVVM.ViewModel
                 window.Close();
             }
         }
+        #endregion
 
+        #region Convert command
         public ICommand ConvertCommand { get; set; }
 
         private bool CanConvertCommand(object sender) => FileName != null && FolderName != null && FileName != "No file selected" && FolderName != "No folder selected";
@@ -97,5 +104,6 @@ namespace WpfConvertWithMVVM.ViewModel
             Message MessageObj = new Message();
             MessageObj.ShowMessage("Conversion started");
         }
+        #endregion
     }
 }

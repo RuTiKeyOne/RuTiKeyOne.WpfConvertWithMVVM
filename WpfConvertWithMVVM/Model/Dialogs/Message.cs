@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
-using WpfConvertWithMVVM.Model.API;
+﻿using System.Windows;
 using WpfConvertWithMVVM.ViewModel;
 
 namespace WpfConvertWithMVVM.Model.Dialogs
 {
+    //The class implements the creation and display of a notification for the user, which contains some kind of message.
     class Message
     {
         internal void ShowMessage(string message)

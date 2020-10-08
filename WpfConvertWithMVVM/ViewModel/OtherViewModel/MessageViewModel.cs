@@ -1,7 +1,4 @@
 ﻿using GalaSoft.MvvmLight.CommandWpf;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows;
 using WpfConvertWithMVVM.Model.Commands.Base;
 using WpfConvertWithMVVM.ViewModel.Base;
@@ -20,6 +17,8 @@ namespace WpfConvertWithMVVM.ViewModel
                 OnPropertyChanged(Message);
             }
         }
+
+        #region ctors
         public MessageViewModel()
         {
 
@@ -29,6 +28,9 @@ namespace WpfConvertWithMVVM.ViewModel
             Message = message;
             this.CloseWindowCommand = new RelayCommand<Window>(this.CloseWindow);
         }
+        #endregion
+
+        #region Close window command
         public RelayCommand<Window> CloseWindowCommand { get; private set; }
         public void CloseWindow(Window window)
         {
@@ -37,5 +39,6 @@ namespace WpfConvertWithMVVM.ViewModel
                 window.Close();
             }
         }
+        #endregion
     }
 }

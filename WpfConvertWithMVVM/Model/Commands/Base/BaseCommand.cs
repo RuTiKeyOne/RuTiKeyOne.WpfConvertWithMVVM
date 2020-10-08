@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Windows.Input;
 
 namespace WpfConvertWithMVVM.Model.Commands.Base
 {
+    //Create base command and implements icommand
     abstract class BaseCommand : ICommand
     {
         public event EventHandler CanExecuteChanged

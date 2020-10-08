@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Threading;
 using ConvertApiDotNet;
-using NUnit.Framework;
 using WpfConvertWithMVVM.Model.Dialogs;
 
 namespace WpfConvertWithMVVM.Model.API
 {
+    //The class implements work with Convert Api, all work with files happens here
     class ApiWork
     {
         public delegate void DelegateComplete(bool result);
         public event DelegateComplete EventCompleteConvert;
         public bool IsConvertFile { get; private set; }
 
+        //The main work with files happens here
         public async void ConvertFile(string fileName, string whereToSave, string expansion)
         {
             EventCompleteConvert += SetnAndShowMessage;
@@ -39,7 +35,7 @@ namespace WpfConvertWithMVVM.Model.API
 
         }
 
-
+        //Create a notification user
         public void SetnAndShowMessage(bool result)
         {
             Message MessageObj = new Message();

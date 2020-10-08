@@ -1,11 +1,8 @@
 ﻿using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
 
 namespace WpfConvertWithMVVM.Model.Dialogs
 {
+    //The class implements opening a dialog box and getting a file.
     class OpenDialogAndGetFile
     {
         public string GetFile(string format)

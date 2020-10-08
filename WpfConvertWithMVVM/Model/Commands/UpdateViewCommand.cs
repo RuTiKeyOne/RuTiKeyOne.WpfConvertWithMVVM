@@ -1,19 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
 using System.Windows.Input;
 using WpfConvertWithMVVM.ViewModel;
 
 namespace WpfConvertWithMVVM.Model.Commands
 {
+    //The class implements the Content Control update
     class UpdateViewCommand : ICommand
     {
         private MainViewModel ViewModel;
+
+        #region ctor
         public UpdateViewCommand(MainViewModel viewmodel)
         {
             this.ViewModel = viewmodel;
         }
+        #endregion
+
+        #region UpdateViewCommand
         public event EventHandler CanExecuteChanged;
 
         public bool CanExecute(object parameter)
@@ -39,5 +42,6 @@ namespace WpfConvertWithMVVM.Model.Commands
                     break;
             }
         }
+        #endregion
     }
 }

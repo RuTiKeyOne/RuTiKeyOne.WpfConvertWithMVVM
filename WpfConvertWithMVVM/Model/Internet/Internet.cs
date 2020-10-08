@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net;
 
 namespace WpfConvertWithMVVM.Model.Internet
 {
+    //The class implements checking the internet connection required for the api to work.
     class Internet
     {
-        #region Create method which check internet connection
+        //Create method which check internet connection
         public bool CheckConnection()
         {
             try
@@ -22,6 +19,5 @@ namespace WpfConvertWithMVVM.Model.Internet
                 return false;
             }
         }
-        #endregion
     }
 }

@@ -1,14 +1,8 @@
-﻿using Microsoft.Win32;
-using Microsoft.WindowsAPICodePack.Dialogs;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace WpfConvertWithMVVM.Model.Dialogs
 {
+    //The class implements opening a dialog box and getting a folder.
     class OpenFolderDialog
     {
         public string SetFolder()

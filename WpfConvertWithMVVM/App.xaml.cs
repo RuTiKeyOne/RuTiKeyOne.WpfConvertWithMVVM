@@ -15,6 +15,8 @@ namespace WpfConvertWithMVVM
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+
+    //Creation of an initial window and checking the Internet connection.
     public partial class App : Application
     {
         internal DisplayRootRegistry displayRootRegistry = new DisplayRootRegistry();
@@ -25,12 +27,14 @@ namespace WpfConvertWithMVVM
 
         Internet InternetConnection = new Internet();
 
+        //Initial window
         public App()
         {
             displayRootRegistry.RegisterWindowType<MainViewModel, MainWindow>();
             displayRootRegistry.RegisterWindowType<MessageViewModel, MessageWindow>();
         }
 
+        //Check the internet connection
         protected override async void OnStartup(StartupEventArgs e)
         {
             if (DoYouHaveInternetConnection = InternetConnection.CheckConnection())

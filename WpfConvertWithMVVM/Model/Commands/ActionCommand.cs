@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Input;
 using WpfConvertWithMVVM.Model.Commands.Base;
 
 namespace WpfConvertWithMVVM.Model.Commands
 {
+    //The class implements the base action command
     class ActionCommand : BaseCommand
     {
         private readonly Action<object> _Execute;
