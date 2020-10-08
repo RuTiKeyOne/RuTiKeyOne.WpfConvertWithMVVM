@@ -13,6 +13,6 @@
     </Window.DataContext>
     <UniformGrid Rows="3">
         <Button Command="{Binding CloseWindowCommand}" Background="#673AB7" CommandParameter="{Binding ElementName=Message}" Foreground="#E5EFF6" Margin="15" Content="&#10006;"  Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10"/>
-        <TextBlock Text="{Binding Message}" Grid.Row="1" x:Name ="TextBlockError" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFFFF" FontSize="20" FontWeight="ExtraLight"/>
+        <TextBlock Height="auto" TextWrapping="Wrap" Text="{Binding Message}" Grid.Row="1" x:Name ="TextBlockError" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFFFFF" FontSize="20" FontWeight="ExtraLight" Margin="10"/>
     </UniformGrid>
 </Window>

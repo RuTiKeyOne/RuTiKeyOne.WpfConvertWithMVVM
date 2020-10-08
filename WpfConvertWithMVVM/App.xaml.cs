@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using WpfConvertWithMVVM.Model.Dialogs;
+using WpfConvertWithMVVM.Model.Internet;
 using WpfConvertWithMVVM.View;
 using WpfConvertWithMVVM.ViewModel;
 
@@ -20,6 +21,10 @@ namespace WpfConvertWithMVVM
 
         MainViewModel MainWindowViewModel;
 
+        bool DoYouHaveInternetConnection;
+
+        Internet InternetConnection = new Internet();
+
         public App()
         {
             displayRootRegistry.RegisterWindowType<MainViewModel, MainWindow>();
@@ -28,13 +33,22 @@ namespace WpfConvertWithMVVM
 
         protected override async void OnStartup(StartupEventArgs e)
         {
-            base.OnStartup(e);
+            if (DoYouHaveInternetConnection = InternetConnection.CheckConnection())
+            {
+                base.OnStartup(e);
 
-            MainWindowViewModel = new MainViewModel();
+                MainWindowViewModel = new MainViewModel();
 
-            await displayRootRegistry.ShowModalPresentation(MainWindowViewModel);
 
-            Shutdown();
+                await displayRootRegistry.ShowModalPresentation(MainWindowViewModel);
+
+                Shutdown();
+            }
+            else
+            {
+                Message MessageObj = new Message();
+                MessageObj.ShowMessage("You don't have internet connection");
+            }
         }
     }
 }
